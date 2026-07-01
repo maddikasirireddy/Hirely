@@ -69,3 +69,6 @@ if __name__ == "__main__":
     import uvicorn
 
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+[tool.vercel]
+entrypoint = "app.fast_api_app:app"
